@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="3">
+            <col class="total">
+        </colgroup>
+        <caption>My Income</caption>
+        <thead>
+            <th>Month</th>
+            <th>Income Source</th>
+            <th>Nominal</th>
+            <th>Total</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">January</td>
+                <td>Salary</td>
+                <td>Rp 3.000.000</td>
+                <td rowspan="2">Rp 5.000.000</td>
+            </tr>
+            <tr>
+                <td>Frelance</td>
+                <td>Rp 2.000.000</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>Salary</td>
+                <td>Rp 3.000.000</td>
+                <td>Rp 3.000.000</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Mei</td>
+                <td>Salary</td>
+                <td>Rp 3.000.000</td>
+                <td rowspan="3">Rp 5.000.000</td>
+            </tr>
+            <tr>
+                <td>Bonus</td>
+                <td>Rp 1.000.000</td>
+            </tr>
+            <tr>
+                <td>Frelance</td>
+                <td>Rp 1.000.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3" class="foot-text">Total Income Until now</td>
+            <td>Rp 13.000.000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
