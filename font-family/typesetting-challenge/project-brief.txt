@@ -1,0 +1,45 @@
+Project brief
+
+You've been provided with some HTML for the homepage of an imaginary community college, plus some CSS that lays out the content into three columns and provides some other rudimentary styling. You need to add rules to the bottom of the CSS file to solve the challenges described in the following sections.
+Apply fonts to the page
+
+    Choose heading and body fonts to apply to the page:
+        Because this is a college, the fonts should give the site a fairly serious, trustworthy feel. A serif site-wide font for the general body text coupled with a heavy/slab font for the headings would work.
+        It is your choice whether you want to use an online font service like Google Fonts to access the fonts, or download font files locally to your project. Whatever you choose, make your fonts available to your page. If you choose to use local font files, use a suitable service to generate bulletproof @font-face code for them.
+    Apply your body font to the whole page, and your heading font to your headings.
+
+General text styling
+
+    Give your headings and other element types appropriate font-sizes defined using a suitable relative unit.
+    Give your body text a suitable line-height.
+    Center your top level heading on the page.
+    Remove the bottom margin from your second-level headings.
+    Give your headings and body text some letter-spacing to make them not too squashed, and allow the letters to breathe a bit.
+    Give the first paragraph after each heading in the <section> a little bit of text-indentation, say 2rem.
+
+Link styling
+
+    Give the link, visited, focus, and hover states some colors that go with the color of the horizontal bars at the top and bottom of the page.
+    Make it so that links are underlined by default, but when you hover or focus them the underline disappears.
+    Remove the default focus outline from ALL the links on the page.
+    Make it so that external links have the external link icon inserted to the right of them, at a suitable size.
+
+List styling
+
+    Make sure the spacing of your lists and list items works well with the styling of the overall page. Each list should have the same line-height and top and bottom margin as the paragraphs.
+    Give your list items appropriate bullet styles for the design of the page. It is up to you whether you choose a custom bullet image or something else.
+
+Navigation menu styling
+
+Style your navigation menu so that it harmonizes with the page. We'll leave this largely up to you, but here are some tips/suggestions:
+
+    Make the links look like buttons, which are as wide as the column they are in, and tall enough that the nav items fill a decent amount of space.
+    Apply the same font to your nav link text as you applied to your headings.
+    Make sure the hit area of each link is expanded to fill the entirety of its parent list item.
+    Center the text inside each link.
+    Uppercase the text (using CSS, not by editing the HTML!)
+
+Hints and tips
+
+    You don't need to edit the HTML for this exercise, unless required to apply the fonts to the page.
+
