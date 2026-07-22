@@ -1,0 +1,16 @@
+.container h1 {
+    color: blue;
+}
+
+.container h2 {
+    color: white;
+    background-color: blue;
+}
+
+body {
+    font: 1.2em / 1.5 sans-serif;
+}
+
+.container span {
+    font-size: 200%;
+}
